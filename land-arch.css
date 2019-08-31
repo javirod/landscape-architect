@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo:100&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400i&display=swap');
 body {
     font-family: 'Heebo', Arial, Helvetica, sans-serif;
     margin: 0%;
@@ -56,9 +57,38 @@ h2 {
     display: block;
     text-align: center;
 }
+.projectTextWrapper{
+    display: inline-block;
+    text-align: center;
+    top: -70px;
+    width: 350px;
+}
+
 .linkImg{
-    width: 18%;
+    width: 300px;
     padding: .9%;
+}
+
+.projectTextCont{
+    display: inline-block;
+    position: relative;
+    top: -70px;
+    width: 249px;
+    border: 1px solid black;
+    text-align: center;
+    background: white;
+    padding-bottom: 30px;
+}
+.projectText{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 25px;
+    color: #465E52;
+    margin-bottom: 0px;
+}
+.projectTextSub{
+    font-family: 'Libre Baskerville', serif;
+    margin-top: 0px;
+    font-size: 15px;
 }
 footer {
     width: 99%;
