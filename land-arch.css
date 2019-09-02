@@ -3,6 +3,7 @@
 body {
     font-family: 'Heebo', Arial, Helvetica, sans-serif;
     margin: 0%;
+    font-weight: bold;
 }
 .busIncub {
     display: block;
@@ -11,10 +12,13 @@ body {
     width: 60%;
     box-shadow: 2px 4px 10px #BEBEBE, -2px 4px 10px #BEBEBE;
 }
-h1 {
+h1.home-page {
     font-size: 70px;
     text-align: center;
     margin-bottom: 0px;
+}
+h1.about-page {
+    font-size: 50px;
 }
 h2 {
     font-size: 50px;
@@ -81,7 +85,7 @@ h2 {
 }
 .projectText{
     font-family: 'Libre Baskerville', serif;
-    font-size: 25px;
+    font-size: 22px;
     color: #465E52;
     margin-bottom: 0px;
 }
@@ -91,9 +95,33 @@ h2 {
     font-size: 15px;
 }
 footer {
-    width: 99%;
+    width: 90%;
     border-top: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     font-size: 10pt;
     padding: 10px 0px 10px 0px;
+}
+.about-cont{
+    display: block;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.about-img-text{
+    display: inline-block;
+    width: 50%;
+    margin-right: 9%;
+}
+.carolinaImg {
+    width: 150px;
+    padding: 5px;
+    box-shadow: 2px 4px 5px #BEBEBE, -2px 4px 5px #BEBEBE;
+}
+
+.contact-info{
+    display: inline-block;
+    width: 40%;
 }
